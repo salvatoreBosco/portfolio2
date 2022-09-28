@@ -9,7 +9,7 @@ import Camera from "./Camera.js";
 import Renderer from "./Render.js";
 
 import World from "./World/World.js";
-
+import { OrbitControls } from "../../node_modules/three/examples/jsm/controls/OrbitControls.js";
 export default class Experience {
     static instance;
     constructor(canvas) {
