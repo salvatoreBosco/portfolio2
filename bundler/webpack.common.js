@@ -88,10 +88,10 @@ module.exports = {
                 }
             },
             //json
-            {
-                test: /\.(json)$/,
-                type: 'asset/resource'
-            }
+            // {
+            //     test: /\.(json)$/,
+            //     type: 'asset/resource'
+            // }
         ]
     }
 }
