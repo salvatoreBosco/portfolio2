@@ -82,7 +82,10 @@ module.exports = {
             {
                 test: /\.(glb|gltf)$/,
                 type: 'asset/resource',
-                use: ['asset/resource', 'gltf-loader']
+                generator:
+                {
+                    filename: 'assets/[hash][ext]'
+                }
             },
             //json
             {
