@@ -59,14 +59,14 @@ module.exports = {
             },
 
             // Images
-            {
-                test: /\.(jpg|png|gif|svg)$/,
-                type: 'asset/resource',
-                generator:
-                {
-                    filename: 'assets/images/[hash][ext]'
-                }
-            },
+            // {
+            //     test: /\.(jpg|png|gif|svg)$/,
+            //     type: 'asset/resource',
+            //     generator:
+            //     {
+            //         filename: 'assets/images/[hash][ext]'
+            //     }
+            // },
 
             // Fonts
             {
