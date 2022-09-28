@@ -48,7 +48,7 @@ scene.add(light2);
 
 const loader = new FontLoader();
 
-loader.load('../static/Assets/fonts/gentilis_regular.typeface.json', function(font){
+loader.load('../dist/Assets/fonts/gentilis_regular.typeface.json', function(font){
   const geometry = new TextGeometry('Ciao Salvo!', {
     font: font,
     size: 6,
@@ -68,7 +68,7 @@ loader.load('../static/Assets/fonts/gentilis_regular.typeface.json', function(fo
 })
 
 let loader2  = new GLTFLoader();
-loader2.load('../static/Assets/myportfolio2.gltf', function(gltf){
+loader2.load('../dist/Assets/myportfolio2.gltf', function(gltf){
   scene.add(gltf.scene);
 })
 

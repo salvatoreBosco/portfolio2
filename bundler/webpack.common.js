@@ -59,14 +59,14 @@ module.exports = {
                 },
 
                 // Images
-                // {
-                //     test: /\.(jpg|png|gif|svg)$/,
-                //     type: 'asset/resource',
-                //     generator:
-                //     {
-                //         filename: 'assets/images/[hash][ext]'
-                //     }
-                // },
+                {
+                    test: /\.(jpg|png|gif|svg)$/,
+                    type: 'asset/resource',
+                    generator:
+                    {
+                        filename: 'assets/images/[hash][ext]'
+                    }
+                },
 
                 // Fonts
                 {
@@ -76,26 +76,7 @@ module.exports = {
                     {
                         filename: 'assets/fonts/[hash][ext]'
                     }
-                },
-
-                //glbt
-                {
-                    test: /\.gltf$/,
-                    type: 'asset/resource',
-                    generator:
-                    {
-                        filename: 'assets/[hash][ext]'
-                    }
-                },
-                //json
-                {
-                    test: /\.json$/,
-                    type: 'asset/resource',
-                    generator:
-                            {
-                                filename: 'assets/fonts/[hash][ext]'
-                            }
-                },
+                }
             ]
     }
 }
