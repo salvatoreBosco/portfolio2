@@ -6,7 +6,7 @@ export default class Opere {
         this.experience = new Experience();
         this.scene = this.experience.scene;
         const art = new THREE.TextureLoader().load(painting)
-        const quadro = new THREE.BoxGeometry(0.75, 3, 0.1);
+        const quadro = new THREE.BoxGeometry(3, 6, 0.1);
         const material = new THREE.MeshBasicMaterial({ map: art}); //map: art => color: red
         this.cube = new THREE.Mesh(quadro, material);
         this.setModel(px, py, pz, rx, ry, rz);
