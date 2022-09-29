@@ -10,7 +10,9 @@ module.exports = {
         hashFunction: 'xxhash64',
         filename: 'bundle.[contenthash].js',
         path: path.resolve(__dirname, '../dist'),
-        publicPath: ''
+        publicPath: '',
+        devtoolModuleFilenameTemplate:
+      'webpack:///'
     },
     devtool: 'source-map',
     plugins:
