@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import Experience from './Exxperience/Experience.js'
+import './style.css'
 const experience = new Experience(document.querySelector(".webgl"))
 
 
